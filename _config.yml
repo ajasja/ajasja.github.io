@@ -82,11 +82,11 @@ analytics:
 author:
   name             : "AjasjaLjubetic"
   avatar           : "profile.png"
-  bio              : "Making de-novo proteins: #MSCA fellow at @UWproteindesign in the Bakerlab, Seattle. Research Assistant Professor in Jerala lab @kemijski, Slovenia"
-  location         : "Location"
+  bio              : "Making de-novo proteins: #SCA fellow at ipd.uw.edu in the Bakerlab, Seattle. Research Assistant Professor in Jerala lab at www.ki.si, Slovenia"
+  location         : "Seattle, USA"
   employer         :
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  googlescholar    : "http://yourfullgooglescholarurl.com"
+  twitter          : "AjasjaLjubetic"
+  googlescholar    : "https://scholar.google.si/citations?user=DaHYEd0AAAAJ&hl=en"
   email            :
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
@@ -96,7 +96,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "https://github.com/ajasj"
+  github           : "ajasja"
   google_plus      :
   keybase          :
   instagram        :
@@ -104,12 +104,12 @@ author:
   lastfm           :
   linkedin         :
   orcid            : "https://orcid.org/0000-0002-2171-1579"
+  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=ajasja+ljubetic"
   pinterest        :
   soundcloud       :
-  stackoverflow    : "https://mathematica.stackexchange.com/users/745/ajasja"
+  stackoverflow    : 
   steam            :
   tumblr           :
-  twitter          : "AjasjaLjubetic"
   vine             :
   weibo            :
   xing             :

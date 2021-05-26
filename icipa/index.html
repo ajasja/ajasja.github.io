@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Coiled Coil interaction scoring</title>
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <div>
+      <label for="seq1">Sequence 1</label>
+      <input type="text" id="seq1" value="DEIQALEEENAQLEQENAALEEEIAQLEYG">
+    </div>
+
+    <div>
+      <label for="seq1">Sequence 2</label>
+      <input type="text" id="seq2" value="DKIAQLKEKNAALKEKNQQLKEKIQALKYG">
+    </div>
+
+    <div>
+      <label for="align">Alignment</label>
+      <input type="number" id="align" step=7 value=0 min=0>
+      <label for="align">(largest shift to scan (in residues) )</label>
+    </div>
+
+    <div>
+      <label for="truncate">Truncate</label>
+      <input type="checkbox" id="truncate" checked>
+    </div>
+
+    <div id="orientationChooser">
+      <p>Orientation</p>
+      <input type="radio" id="parallel" name="orientation" checked> <label for="parallel">Parallel</label>
+      <input type="radio" id="antiparallel" name="orientation"> <label for="antiparallel">Antiparallel</label>
+      <input type="radio" id="both" name="orientation"> <label for="both">Both</label>
+    </div>
+
+    <div id="scoringEngineChooser">
+      <p>Function</p>
+      <input type="radio" id="icipa_core_vert" name="scoringEngine" checked> <label for="icipa_core_vert">icipa_core_vert</label>
+      <input type="radio" id="icipa_nter_core" name="scoringEngine"> <label for="icipa_nter_core">icipa_nter_core</label>
+      <input type="radio" id="bcipa" name="scoringEngine"> <label for="bcipa">bcipa</label>
+      <input type="radio" id="potapov" name="scoringEngine"> <label for="potapov">Potapov</label>
+    </div>
+
+    <div id="res">
+      <p>Score: <span id="resScore"></span></p>
+      <p>Alignment: <span id="resAlignment"></span></p>
+      <p>Orientation: <span id="resOrientation"></span></p>
+    </div>
+    
+  </body>
+</html>

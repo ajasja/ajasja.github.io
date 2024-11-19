@@ -5,17 +5,37 @@
 # prevent it from being included in the site.
 
 main:
+  - title: "News"
+    url: /news/
+
+  - title: "Research"
+    url: /research/    
+    
+  - title: "Team"
+    url: /team/
+        
   - title: "Publications"
     url: /publications/
-
-  - title: "Teaching"
-    url: /teaching/    
     
   - title: "Software"
-    url: /portfolio/
-        
-  - title: "CV"
-    url: /cv/
-    
-  - title: "Guide"
-    url: /markdown/
+    url: /software/
+  
+  - title: "Contact"
+    url: /contact/
+
+Team:
+  - title: Research Team
+    url: /team
+    children:
+    - title: Principal Investigator
+      url: /team#PI
+    - title: Post-doctoral researchers
+      url: /team#PostDoc
+    - title: PhD students
+      url: /team#PhD
+    - title: Research Specialists
+      url: /team#TechStaff
+    - title: Master Students
+      url: /team#MasterStu
+    - title: Internship & Exchange students
+      url: /team#OtherStudents

@@ -39,3 +39,11 @@ Team:
       url: /team#MasterStu
     - title: Internship & Exchange students
       url: /team#OtherStudents
+
+Research:
+  - title: Research
+    url: /research
+    children: 
+    - title: First section.
+      url: /research#first-section
+

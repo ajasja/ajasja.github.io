@@ -13,17 +13,18 @@
 {% endif %}
 
 <div class="{{ include.type | default: "list" }}__item">
-  <a href="{{ base_path }}{{ post.url }}" rel="permalink">
   <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
     {% if include.type == "grid" and teaser %}
       <div class="archive__item-teaser">
-        <img style='object-fit: contain;' src=
-          {% if teaser contains "://" %}
-            "{{ teaser }}"
-          {% else %}
-            "{{ teaser | prepend: "/images/" | prepend: base_path }}"
-          {% endif %}
-          alt="">
+        <a href="{{ base_path }}{{ post.url }}" rel="permalink">
+          <img style='object-fit: contain;' src=
+            {% if teaser contains "://" %}
+              "{{ teaser }}"
+            {% else %}
+              "{{ teaser | prepend: "/images/" | prepend: base_path }}"
+            {% endif %}
+            alt="">
+        </a>
       </div>
     {% endif %}
 
@@ -35,11 +36,9 @@
 
     <h2 class="archive__item-title" itemprop="headline">
       {% if post.link %}
-      <p style="color: red"> JE POST LINK1!!</p>
-      <center><a href="{{ post.link }}">{{ title }}</a> </center><a href="{{ base_path }}{{ post.url }}" rel="permalink"><i class="fa fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
+        <center><a href="{{ post.link }}">{{ title }}</a> </center><a href="{{ base_path }}{{ post.url }}" rel="permalink"><i class="fa fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
       {% else %}
-      <p style="color: green"> NI :(</p>
-      <center>{{ title }}</a></center>
+        <center><a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ title }}</a></center>
       {% endif %}
     </h2>
 
@@ -50,7 +49,7 @@
 
     {% if post.tagline  %}
     <center><i>{{ post.tagline }}</i></center>
-{% endif %}
+    {% endif %}
 
 
   </article>

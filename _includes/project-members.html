@@ -1,0 +1,17 @@
+<h2>Current project members </h2>
+
+<ul>
+<div class="grid">
+  <div class="wrapper">
+      
+    {% for post in site.team %}
+      {% unless post.tags contains 'former' %}  
+        {% if post.projects contains page.name %}
+          {% include archive-single-proj.html type="grid" %}
+        {% endif %}
+      {% endunless %}
+    {% endfor %}
+
+  </div>
+</div>
+</ul>

@@ -21,7 +21,7 @@ repository               : "ajasja/ajasja.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.jpg"
+  avatar           : "logo.webp"
   name             : "Ajasja Ljubetič"
   pronouns         : # example: "she/her"  
   bio              : "Making de-novo proteins: Visiting scholar at ipd.uw.edu in the Bakerlab, Seattle. Research Assistant Professor in Jerala lab at www.ki.si, Slovenia. MSCA fellow (CC-LEGO)"
@@ -117,9 +117,7 @@ staticman:
       options:
         format           : "iso8601" # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
 atom_feed:
-  hide                   : false     # change to true to hide the RSS feed in the footer
   path                   : # blank (default) uses feed.xml
-
 
 # SEO Related
 google_site_verification :
@@ -127,10 +125,9 @@ bing_site_verification   :
 alexa_site_verification  :
 yandex_site_verification :
 
-
 # Social Sharing
 twitter:
-  username               : &twitter
+  username               : &AjasjaLjubetic
 facebook:
   username               :
   app_id                 :
@@ -146,7 +143,7 @@ social:
 
 # Analytics
 analytics:
-  provider               :  "false" # false (default), "google", "google-universal", "google-analytics-4", "custom"
+  provider               :  "false" # false (default), "google", "google-universal", "custom"
   google:
     tracking_id          :
 
@@ -210,27 +207,28 @@ kramdown:
   enable_coderay: false
 
 
-# These settings control the types of collections used by the template
+# Collections
 collections:
-  teaching:
+  news:
+    output: true
+    permalink: /:collection/:path/
+  research:
+    output: true
+    permalink: /:collection/:path/ 
+  team:
+    output: true
+    permalink: /:collection/:path/
+  software:
     output: true
     permalink: /:collection/:path/
   publications:
     output: true
     permalink: /:collection/:path/
-  portfolio:
-    output: true
-    permalink: /:collection/:path/
-  talks:
-    output: true
-    permalink: /:collection/:path/
-  team:
-    output: true
-    permalink: /:collection/:path/
 
 
-# These settings control how pages and collections are included in the site
+# Defaults
 defaults:
+  
   # _posts
   - scope:
       path: ""
@@ -240,8 +238,9 @@ defaults:
       author_profile: true
       read_time: true
       comments: true
-      share: true
+      share: false
       related: true
+
   # _pages
   - scope:
       path: ""
@@ -249,41 +248,38 @@ defaults:
     values:
       layout: single
       author_profile: true
-  # _teaching
+
+  # _news
   - scope:
       path: ""
-      type: teaching
+      type: news
     values:
       layout: single
       author_profile: true
-      share: true
+      share: false
       comments: true
-  # _publications
+      
+  # _research
   - scope:
       path: ""
-      type: publications
+      type: research
     values:
       layout: single
       author_profile: true
-      share: true
+      share: false
       comments: true
-  # _portfolio
+  
+  # _software
   - scope:
       path: ""
-      type: portfolio
+      type: software
     values:
       layout: single
       author_profile: true
-      share: true
-      comment: true
-  # _talks
-  - scope:
-      path: ""
-      type: talks
-    values:
-      layout: talk
-      author_profile: true
-      share: true
+      share: false
+      comments: true
+  
+  # _team
   - scope:
       path: ""
       type: team
@@ -291,7 +287,27 @@ defaults:
       layout: single
       author_profile: true
       share: false
-      comment: false
+      comments: true
+
+  # _publications
+  - scope:
+      path: ""
+      type: publications
+    values:
+      layout: single
+      author_profile: true
+      share: false
+      comments: true
+
+  # contact
+  - scope:
+      path: ""
+      type: contact
+    values:
+      layout: single
+      author_profile: true
+      share: false
+      comments: true
 
 
 # Sass/SCSS
@@ -304,7 +320,7 @@ sass:
 permalink: /:categories/:title/
 # paginate: 5 # amount of posts to show
 # paginate_path: /page:num/
-timezone: Etc/UTC # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: Europe/Ljubljana # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins

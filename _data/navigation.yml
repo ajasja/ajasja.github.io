@@ -1,25 +1,20 @@
-# The following is the order of the links in the header of the website.
-#
-# Changing the order here will adjust the order and you can also add additional
-# links. Removing a link prevents it from showing in the header, but does not
-# prevent it from being included in the site.
-
+# main links links
 main:
   - title: "News"
     url: /news/
-
+  
   - title: "Research"
-    url: /research/    
+    url: /research/
     
   - title: "Team"
-    url: /team/
-        
+    url: /team/    
+
   - title: "Publications"
     url: /publications/
-    
+
   - title: "Software"
     url: /software/
-  
+    
   - title: "Contact"
     url: /contact/
 
@@ -27,18 +22,20 @@ Team:
   - title: Research Team
     url: /team
     children:
-    - title: Principal Investigator
-      url: /team#PI
-    - title: Post-doctoral researchers
-      url: /team#PostDoc
-    - title: PhD students
-      url: /team#PhD
-    - title: Research Specialists
-      url: /team#TechStaff
-    - title: Master Students
-      url: /team#MasterStu
-    - title: Internship & Exchange students
-      url: /team#OtherStudents
+    - title: Group Leader
+      url: /team#group-leader
+    - title: Researchers
+      url: /team#researchers
+    - title: Postdocs
+      url: /team#postdocs
+    - title: PhD Students
+      url: /team#phd-students
+    - title: Staff
+      url: /team#staff
+    - title: Students
+      url: /team#students
+    - title: Past members since 2020
+      url: /team#past-members-since-2020
 
 Research:
   - title: Research

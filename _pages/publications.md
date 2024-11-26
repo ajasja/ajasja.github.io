@@ -5,12 +5,21 @@ permalink: /publications/
 author_profile: true
 ---
 
-{% if author.googlescholar %}
-  You can also find my articles on <u><a href="{{author.googlescholar}}">my Google Scholar profile</a>.</u>
-{% endif %}
-
 {% include base_path %}
 
+{% assign date = '' %} 
+<ul>
 {% for post in site.publications reversed %}
-  {% include archive-single.html %}
+
+  {% assign currentdate = post.date | date: "%Y" %}
+    {% if currentdate != date %}
+      <h2 id="y{{post.date | date: "%Y"}}"><span style="color:gray">{{ currentdate }}</span></h2>
+      {% assign date = currentdate %}
+    {% endif %}
+  
+  <ul>
+    {% include archive-single-pub.html %}
+  </ul>
+  
 {% endfor %}
+</ul>

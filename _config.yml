@@ -3,17 +3,87 @@
 # This config file is meant for settings that affect your entire site, values
 # which you are expected to set up once and rarely need to edit after that.
 # For technical reasons, this file is *NOT* reloaded automatically when you use
-# `jekyll serve`. If you change this file, please restart the server process.
+# `jekyll serve -l -H localhost`. If you change this file, please restart the 
+# server process.
 
-# Site Settings
+# Basic Site Settings
 locale                   : "en-US"
-title                    : "Ajasja Ljubetic"
+title                    : "Ljubetič Lab @ KI"
 title_separator          : "-"
-name                     : &name "Ajasja Ljubetic"
+name                     : &name "Ajasja Ljubetič"
 description              : &description "#MSCA fellow at @UWproteindesign in the Bakerlab, Seattle. Research Assistant Professor in Jerala lab @kemijski, Slovenia"
-url                      : https://ajasja.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : https://ajasja.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "ajasja/ajasja.github.io"
+
+# Site Author - The following control what appear as part of the author content on the side bar.
+#               If a field is blank the icon and link will not appear, otherwise it will be shown.
+#               Additional customization can be done by editing /_includes/author-profile.html
+author:
+  # Biographic information
+  avatar           : "logo.webp"
+  name             : "Ajasja Ljubetič"
+  pronouns         : # example: "she/her"  
+  bio              : "Making de-novo proteins: Visiting scholar at ipd.uw.edu in the Bakerlab, Seattle. Research Assistant Professor in Jerala lab at www.ki.si, Slovenia. MSCA fellow (CC-LEGO)"
+  location         : "Earth"
+  employer         : 
+  uri              : # URL
+  email            :  
+
+  # Academic websites
+  arxiv            : # URL - Update with the correct link to your profile
+  googlescholar    : "https://scholar.google.si/citations?user=DaHYEd0AAAAJ&hl=en"
+  impactstory      : # URL
+  orcid            : "https://orcid.org/0000-0002-2171-1579"
+  semantic         : # URL
+  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=ajasja+ljubetic"
+  researchgate     : # URL
+  scopus           : # URL
+
+  # Repositories and software development
+  bitbucket        : # Username - Update with your username on the site
+  codepen          : # Username
+  dribbble         : # Username
+  github           : "ajasja"
+  kaggle           : # Username  
+  stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
+
+  # Social media
+  bluesky          : # Replace this with you Bluesky username
+  facebook         : # Username
+  flickr           : # Username
+  foursquare       : # Username
+  goodreads        : # Username
+  google_plus      : # Username
+  keybase          : # Username
+  instagram        : # Username
+  lastfm           : # Username
+  linkedin         : "ajasja-ljubeti%C4%8D-6025a25"
+  mastodon         : # URL
+  medium           : # URL
+  pinterest        : # Username
+  soundcloud       : # Username
+  steam            : # Username
+  telegram         : # URL
+  tumblr           : # Username
+  twitter          : "AjasjaLjubetic"
+  vine             : # Username
+  weibo            : # Username
+  wikipedia        : # Username
+  xing             : # Username
+  youtube          : # Username
+  zhihu            : # Username
+
+# Publication Category - The following the list of publication categories and their headings
+publication_category:
+  books:
+    title: 'Books'
+  manuscripts:
+    title: 'Journal Articles'    
+  conferences:
+    title: 'Conference Papers'
+
+# Site Settings
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
@@ -73,48 +143,9 @@ social:
 
 # Analytics
 analytics:
-  provider               :  "google-universal" # false (default), "google", "google-universal", "custom"
+  provider               :  "false" # false (default), "google", "google-universal", "custom"
   google:
     tracking_id          :
-
-
-# Site Author
-author:
-  name             : "AjasjaLjubetic"
-  avatar           : "profile.png"
-  bio              : "Making de-novo proteins: Visiting scholar at ipd.uw.edu in the Bakerlab, Seattle. Research Assistant Professor in Jerala lab at www.ki.si, Slovenia. MSCA fellow (CC-LEGO)"
-  location         : "Seattle, USA"
-  employer         :
-  twitter          : "AjasjaLjubetic"
-  googlescholar    : "https://scholar.google.si/citations?user=DaHYEd0AAAAJ&hl=en"
-  email            :
-  researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
-  uri              :
-  bitbucket        :
-  codepen          :
-  dribbble         :
-  flickr           :
-  facebook         :
-  foursquare       :
-  github           : "ajasja"
-  google_plus      :
-  keybase          :
-  instagram        :
-  impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
-  lastfm           :
-  linkedin         : "https://www.linkedin.com/in/ajasja-ljubeti%C4%8D-6025a25/"
-  orcid            : "https://orcid.org/0000-0002-2171-1579"
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=ajasja+ljubetic"
-  pinterest        :
-  soundcloud       :
-  stackoverflow    : 
-  steam            :
-  tumblr           :
-  vine             :
-  weibo            :
-  xing             :
-  youtube          :
-  wikipedia        :
 
 
 # Reading Files
@@ -127,23 +158,26 @@ exclude:
   - "*.sublime-workspace"
   - .asset-cache
   - .bundle
+  - .github
   - .jekyll-assets-cache
   - .sass-cache
-  - CHANGELOG
-  - Capfile
-  - Gemfile
-  - Gruntfile.js
-  - LICENSE
-  - README
-  - Rakefile
   - assets/js/_main.js
   - assets/js/plugins
   - assets/js/vendor
+  - CHANGELOG
+  - Capfile
   - config
+  - Dockerfile
+  - Gemfile
+  - Gruntfile.js
   - gulpfile.js
+  - LICENSE
+  - local
   - log
   - node_modules
-  - package.json
+  - package.json*
+  - Rakefile
+  - README
   - tmp
   - vendor
 keep_files:
@@ -175,22 +209,26 @@ kramdown:
 
 # Collections
 collections:
-  teaching:
+  news:
+    output: true
+    permalink: /:collection/:path/
+  research:
+    output: true
+    permalink: /:collection/:path/ 
+  team:
+    output: true
+    permalink: /:collection/:path/
+  software:
     output: true
     permalink: /:collection/:path/
   publications:
-    output: true
-    permalink: /:collection/:path/
-  portfolio:
-    output: true
-    permalink: /:collection/:path/
-  talks:
     output: true
     permalink: /:collection/:path/
 
 
 # Defaults
 defaults:
+  
   # _posts
   - scope:
       path: ""
@@ -200,8 +238,9 @@ defaults:
       author_profile: true
       read_time: true
       comments: true
-      share: true
+      share: false
       related: true
+
   # _pages
   - scope:
       path: ""
@@ -209,15 +248,47 @@ defaults:
     values:
       layout: single
       author_profile: true
-  # _teaching
+
+  # _news
   - scope:
       path: ""
-      type: teaching
+      type: news
     values:
       layout: single
       author_profile: true
-      share: true
+      share: false
       comments: true
+      
+  # _research
+  - scope:
+      path: ""
+      type: research
+    values:
+      layout: single
+      author_profile: true
+      share: false
+      comments: true
+  
+  # _software
+  - scope:
+      path: ""
+      type: software
+    values:
+      layout: single
+      author_profile: true
+      share: false
+      comments: true
+  
+  # _team
+  - scope:
+      path: ""
+      type: team
+    values:
+      layout: single
+      author_profile: true
+      share: false
+      comments: true
+
   # _publications
   - scope:
       path: ""
@@ -225,25 +296,19 @@ defaults:
     values:
       layout: single
       author_profile: true
-      share: true
+      share: false
       comments: true
-  # _portfolio
+
+  # contact
   - scope:
       path: ""
-      type: portfolio
+      type: contact
     values:
       layout: single
       author_profile: true
-      share: true
-      comment: true
-  # _talks
-  - scope:
-      path: ""
-      type: talks
-    values:
-      layout: talk
-      author_profile: true
-      share: true
+      share: false
+      comments: true
+
 
 # Sass/SCSS
 sass:
@@ -255,22 +320,23 @@ sass:
 permalink: /:categories/:title/
 # paginate: 5 # amount of posts to show
 # paginate_path: /page:num/
-timezone: America/Los_Angeles # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: Europe/Ljubljana # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins
 plugins:
+  - jekyll-feed
+  - jekyll-gist
   - jekyll-paginate
   - jekyll-sitemap
-  - jekyll-gist
-  - jekyll-feed
-  - jekyll-redirect-from
-# mimic GitHub Pages with --safe
+  - jemoji
+
+# Mimic GitHub Pages with --safe
 whitelist:
+  - jekyll-feed
+  - jekyll-gist
   - jekyll-paginate
   - jekyll-sitemap
-  - jekyll-gist
-  - jekyll-feed
   - jemoji
 
 

@@ -1,16 +1,46 @@
 # main links links
 main:
+  - title: "News"
+    url: /news/
+  
+  - title: "Research"
+    url: /research/
+    
+  - title: "Team"
+    url: /team/    
+
   - title: "Publications"
     url: /publications/
 
-  - title: "Teaching"
-    url: /teaching/    
-    
   - title: "Software"
-    url: /portfolio/
-        
-  - title: "CV"
-    url: /cv/
+    url: /software/
     
-  - title: "Guide"
-    url: /markdown/
+  - title: "Contact"
+    url: /contact/
+
+Team:
+  - title: Research Team
+    url: /team
+    children:
+    - title: Group Leader
+      url: /team#group-leader
+    - title: Researchers
+      url: /team#researchers
+    - title: Postdocs
+      url: /team#postdocs
+    - title: PhD Students
+      url: /team#phd-students
+    - title: Staff
+      url: /team#staff
+    - title: Students
+      url: /team#students
+    - title: Past members since 2020
+      url: /team#past-members-since-2020
+
+Research:
+  - title: Research
+    url: /research
+    children: 
+    - title: First section.
+      url: /research#first-section
+

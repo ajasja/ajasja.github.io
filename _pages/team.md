@@ -6,7 +6,7 @@ sidebar:
   nav: "Team"
 ---
 
-![Group photo](/images/team.jpg)  
+![Group photo](/images/team/Group-photo.webp)  
 We are beautiful. But not as beautiful as _de novo_ designed proteins 💁🏻‍♀️
 
 

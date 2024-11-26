@@ -15,13 +15,18 @@
 <div class="{{ include.type | default: "list" }}__item">
   <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
     {% if include.type == "grid" and teaser %}
+      {% if post.collection == 'team' %}
+        {% assign image_src = "/images/team/" %}
+      {% else %}
+        {% assign image_src = "/images/" %}
+      {% endif %}
       <div class="archive__item-teaser">
         <a href="{{ base_path }}{{ post.url }}" rel="permalink">
           <img style='object-fit: contain;' src=
             {% if teaser contains "://" %}
               "{{ teaser }}"
             {% else %}
-              "{{ teaser | prepend: "/images/" | prepend: base_path }}"
+              "{{ teaser | prepend: image_src | prepend: base_path }}"
             {% endif %}
             alt="">
         </a>
@@ -49,6 +54,17 @@
 
     {% if post.tagline  %}
     <center><i>{{ post.tagline }}</i></center>
+    {% endif %}
+
+<!--     {% if post.excerpt %}
+    <center style="font-size: smaller"><p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify }}</p></center>
+    {% endif %} -->
+
+
+    {% if post.short %}
+    <center style="font-size: small">{{ post.short }}</center>
+    {% elsif post.excerpt %}
+    <center style="font-size: small">{{ post.excerpt | markdownify | remove: "<p>" | remove: "</p>" }}</center>
     {% endif %}
 
 

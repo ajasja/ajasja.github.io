@@ -16,8 +16,11 @@ orcid: "0000-0000-0000-000X"
 publons: "https://publons.com/researcher/1234/testni-primer/"
 googlescholar: "https://scholar.google.com/citations?user=aaa"
 researchgate: "Testni-Primer"
-projects: "vikendProjekt"
+projects: # TestniPrimer won't be visible because it's "former". But use the same syntax for actual team members.
+  - "name of this project"
+  - "CC-Trigger"
 short: "Walks all day long"
+foto: "Make sure to credit your photographer! Unless you have self-assembled :robot:"
 ---
 
 Creator of this website. In free time, a student of *programme* at *your university* 🕓🏃🏻‍♀️

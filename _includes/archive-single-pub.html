@@ -13,8 +13,21 @@
 {% endif %}
 
 <div class="{{ include.type | default: "list" }}__item">
-  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
-    {% if include.type == "grid" and teaser %}
+  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork" style="min-height: 160px; margin-bottom: 1rem;">
+    {% if post.header.teaser %}
+    {% if post.collection == "software" or "publications" %}
+      {% assign pull = "pull-left" %}
+    {% else %}
+      {% assign pull = "pull-right" %}
+    {% endif %}
+    <div class='{{ pull }}' style='max-width: 30%; height: 150px; padding: 10px; object-fit: contain;'>
+      <a href="{{ base_path }}{{ post.url }}" rel="permalink">
+        <img src='{{ post.header.teaser | prepend: "/images/" | prepend: base_path }}' style='object-fit: scale-down; max-height: min(220px, 100%);' >
+      </a>
+    </div>
+    {% endif %}
+
+    <!-- {% if teaser %}
       <div class="archive__item-teaser">
         <img src=
           {% if teaser contains "://" %}
@@ -24,7 +37,7 @@
           {% endif %}
           alt="">
       </div>
-    {% endif %}
+    {% endif %} -->
 
 
     <span style="font-size:1.05em; line-height: 0.1; font-weight:bold" class="archive__item-title" itemprop="headline">
@@ -44,7 +57,7 @@
     {% endif %}
 
     {% if post.paperurl %}
-    <span style="font-size:0.8em; line-height: 0.5;"><b><cite>(read more <a href="{{ post.paperurl }}">here</a>)</cite></b></span><br>
+    <span style="font-size:0.8em; line-height: 0.5;"><b><cite>(read more <a href="{{ post.paperurl }}" target="_blank">here</a>)</cite></b></span><br>
     {% else %}
     <br>
     {% endif %}

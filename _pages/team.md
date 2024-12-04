@@ -4,9 +4,14 @@ layout: archive
 permalink: /team/
 sidebar:
   nav: "Team"
+author_profile: true
 ---
 
-![Group photo](/images/team/Group-photo.webp)  
+<!-- ![Group photo](/images/team/Group-photo.webp) -->  
+{% assign photo_dims = "1200 * 623" %}
+{% assign crop_top = 5 %}
+{% assign crop_bottom = 66 %}
+<img src="/images/team/Group-photo.webp" alt="Group photo" style="clip-path: rect({{ crop_top }}% auto {{ crop_bottom }}% auto); margin-bottom: calc(-{{ 100 | minus: crop_bottom }}% / {{ photo_dims }}); margin-top: calc(-{{ crop_top }}% / {{ photo_dims }});">
 We are beautiful. But not as beautiful as _de novo_ designed proteins 💁🏻‍♀️
 
 

@@ -8,7 +8,7 @@ sidebar:
 ---
 {% include base_path %}
 
-First section.
+Running projects :running:
 ------------
 <hr>
 <div class="grid">

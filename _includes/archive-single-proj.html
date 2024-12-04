@@ -17,12 +17,17 @@
     {% if include.type == "grid" and teaser %}
       {% if post.collection == 'team' %}
         {% assign image_src = "/images/team/" %}
+        {% assign radij = "25% 75% / 50%" %}
+        {% assign radij = "1rem" %}
+        {% assign radij = "90% 75% / 50%" %}
+        {% assign radij = "40% 75% / 50%" %}
       {% else %}
         {% assign image_src = "/images/" %}
+        {% assign radij = "0" %}
       {% endif %}
-      <div class="archive__item-teaser">
-        <a href="{{ base_path }}{{ post.url }}" rel="permalink">
-          <img style='object-fit: contain;' src=
+      <div class="archive__item-teaser" style="text-align: center; max-height: 250px;">
+        <a href="{{ base_path }}{{ post.url }}" rel="permalink" style="vertical-align: middle; width: 100%; display: inline-block;">
+          <img style='object-fit: contain; /* clip-path: circle(30% at 50% 50%); */ border-radius: {{ radij }};  vertical-align: middle; max-height: 250px; max-width: 100%; height: unset; width: unset;' src=
             {% if teaser contains "://" %}
               "{{ teaser }}"
             {% else %}

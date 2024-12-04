@@ -11,7 +11,13 @@
 <div class="{{ include.type | default: "list" }}__item">
   <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
     {% if post.header.teaser %}
-    <div class='pull-right' style='max-width: 30%; height: 150px; padding: 10px; object-fit: contain;'>
+    {% if post.collection == "software" %}
+      {% assign pull = "pull-left" %}
+    {% else %}
+      {% assign pull = "pull-right" %}
+    {% endif %}
+
+    <div class='{{ pull }}' style='max-width: 30%; height: 150px; padding: 10px; object-fit: contain;'>
       <a href="{{ base_path }}{{ post.url }}" rel="permalink">
         <img src='{{ post.header.teaser | prepend: "/images/" | prepend: base_path }}' style='object-fit: scale-down; max-height: min(220px, 100%); margin-left: 10px; margin-right: auto;' >
       </a>

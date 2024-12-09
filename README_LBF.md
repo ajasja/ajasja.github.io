@@ -1,6 +1,6 @@
 # How to edit this website
 
-Below a very short intro on how to modify the content of our new website, which is now redirected from  [Github](https://ajasja.github.io) to our domain [...](...).
+Below a very short intro on how to modify the content of our new website, which is now redirected from  [Github](https://ajasja.github.io) to our domain [https://ljubetic-lab.si/](https://ljubetic-lab.si/).
 
 Some of the pages use the content specified directly within the `.md` **files** in the `_pages` directory:
 

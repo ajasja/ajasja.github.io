@@ -4,7 +4,7 @@ collection: publications
 date: 2023-08-02
 venue: 'Nature Communications'
 authors: 'BOLDRIDGE*, W. Clifford, LJUBETIČ*#, Ajasja, KIM, Hwangbeom, LUBOCK, Nathan, SZILÁGYI, Dániel, LEE, Jonathan, BRODNIK, Andrej, JERALA#, Roman, KOSURI#, Sriram'
-paperurl: 'https://doi.org/10.1038/s41467-023-38697-x'
+paperurl: 
 doi: 10.1038/s41467-023-38697-x
 type: 'Paper'
 header:

@@ -12,7 +12,7 @@ title                    : "Ljubetič Lab @ KI"
 title_separator          : "-"
 name                     : &name "Ajasja Ljubetič"
 description              : &description "#MSCA fellow at @UWproteindesign in the Bakerlab, Seattle. Research Assistant Professor in Jerala lab @kemijski, Slovenia"
-url                      : https://ajasja.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io"
+url                      : https://ljubetic-lab.si/ # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "ajasja/ajasja.github.io"
 

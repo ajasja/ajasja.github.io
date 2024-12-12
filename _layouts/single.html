@@ -122,7 +122,7 @@ layout: default
             <b><i>{{ page.venue }}</i>, {{ page.date | default: "1900-01-01" | date: "%B %Y" }};</b>
           {% endif %}
           {% if page.doi%}
-            <b>doi: {{ page.doi }} </b>
+            <b>doi: <a href="https://doi.org/{{ page.doi }}">{{ page.doi }}</a></b>
           {% endif %}
           {% if page.paperurl%}
             <b> (read more <a href="{{ page.paperurl }}"> here</a>).</b>

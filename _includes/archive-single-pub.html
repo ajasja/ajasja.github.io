@@ -35,9 +35,9 @@
       {% capture postHeaderTeaser %}{{ post.header.teaser | prepend: "/images/" | prepend: base_path }}{% endcapture %}
     {% endif %}
 
-    <div class='{{ pull }}' style='max-width: 30%; height: 150px; padding: 10px; object-fit: contain;'>
-      <a href="{{ postUrl }}" rel="permalink" {{ target }}>
-        <img src='{{ postHeaderTeaser }}' style='object-fit: scale-down; max-height: min(220px, 100%);' >
+    <div class='{{ pull }}' style='max-width: 30%; height: fit-content; max-height: 160px; padding: 10px; object-fit: contain;'>
+      <a href="{{ postUrl }}" rel="permalink" {{ target }} style="max-height: 140px; display: inline-block;">
+        <img src='{{ postHeaderTeaser }}' style='object-fit: scale-down; max-height: 140px;' >
       </a>
     </div>
     {% endif %}

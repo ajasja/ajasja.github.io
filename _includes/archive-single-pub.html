@@ -15,7 +15,7 @@
 {% if post.featured == true %}
   {% capture postUrl %}https://doi.org/{{ post.doi }}{% endcapture %}
   {% assign target = "target='_blank'" %}
-  {% else %}
+{% else %}
   {% capture postUrl %}{{ base_path }}{{ post.url }}{% endcapture %}
   {% assign target = "" %}
 {% endif %}
@@ -35,9 +35,12 @@
       {% capture postHeaderTeaser %}{{ post.header.teaser | prepend: "/images/" | prepend: base_path }}{% endcapture %}
     {% endif %}
 
-    <div class='{{ pull }}' style='max-width: 30%; height: fit-content; max-height: 160px; padding: 10px; object-fit: contain;'>
-      <a href="{{ postUrl }}" rel="permalink" {{ target }} style="max-height: 140px; display: inline-block;">
-        <img src='{{ postHeaderTeaser }}' style='object-fit: scale-down; max-height: 140px;' >
+    {% assign maxHeight = "6rem" %}
+    {% assign maxHeight = "140px" %}
+
+    <div class='{{ pull }}' style='max-width: 30%; height: fit-content; max-height: calc({{ maxHeight }} + 20px); padding: 10px; object-fit: contain;'>
+      <a href="{{ postUrl }}" rel="permalink" {{ target }} style="max-height: {{ maxHeight }}; display: inline-block;">
+        <img src='{{ postHeaderTeaser }}' style='object-fit: scale-down; max-height: {{ maxHeight }};' >
       </a>
     </div>
     {% endif %}

@@ -1,15 +1,14 @@
 ---
-title: "Designed folding pathway of modular coiled-coil-based proteins"
+title: "Designed Folding Pathway of Modular Coiled-Coil-Based Proteins"
 collection: publications
 date: 2021-02-11
-venue: 'Nature Communications'
-authors: 'AUPIČ, Jana, STRMŠEK, Žiga, LAPENTA, Fabio, PAHOVNIK, David, PISANSKI, Tomaž, DROBNAK, Igor, LJUBETIČ, Ajasja, JERALA, Roman'
-paperurl: 
+venue: "Nat Commun"
+authors: "J Aupič, Ž Strmšek, F Lapenta, D Pahovnik, T Pisanski, I Drobnak, A Ljubetič, R Jerala"
+paperurl:
 doi: 10.1038/s41467-021-21185-5
-type: 'Paper'
+type: "Paper"
 header:
-  teaser: 'logo.webp'
-project: 
+  teaser: "logo.webp"
+project:
 ---
 
-Designed folding pathway of modular coiled-coil-based proteins 

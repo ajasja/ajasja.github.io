@@ -13,7 +13,10 @@ layout: compress
     {% include slider_styles.html %}
   </head>
 
-  <body>
+  {% assign classPageType = page.url | split: "/" | last | remove: ".html" %}
+  {% if classPageType == blank %} {% assign classPageType = "home" %} {% endif %}
+
+  <body class='{{ classPageType }}'>
 
     {% include browser-upgrade.html %}
     {% include masthead.html %}

@@ -27,13 +27,13 @@ Group Leader
 </div>
 </div>
 
-Researchers
+<!-- Researchers
 -----------
 <div class="grid">
 <div class="wrapper">
 {% for post in site.team %} {% if post.tags contains 'researcher' %} {% include archive-single-proj.html type="grid" %} {% endif %} {% endfor %}
 </div>
-</div>
+</div> -->
 
 Postdocs
 -----------
@@ -51,13 +51,13 @@ PhD Students
 </div>
 </div>
 
-Staff
+<!-- Staff
 -----
 <div class="grid">
 <div class="wrapper">
 {% for post in site.team %} {% if post.tags contains 'staff' %} {% include archive-single-proj.html type="grid" %} {% endif %} {% endfor %}
 </div>
-</div>
+</div> -->
 
 Students
 --------
@@ -67,10 +67,10 @@ Students
 </div>
 </div>
 
-Past members since 2020
+Past members since 2022
 --------
 <div class="grid">
 <div class="wrapper">
-{% for post in site.team %} {% if post.tags contains 'former' %} {% include archive-single-proj.html type="grid" %} {% endif %} {% endfor %}
+{% for post in site.team %} {% if post.tags contains 'former' %} {% include archive-single-proj-former.html type="grid" %} {% endif %} {% endfor %}
 </div>
 </div>

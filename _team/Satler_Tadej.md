@@ -1,11 +1,8 @@
 ---
-title: "Liza Ulčakar"
-title2: "Liza Ulcakar"
+title: "Tadej Satler"
+title2: 
 collection: team
-header:
-  teaser: Ulcakar_Liza.webp 
-tags: phd
-tagline: PhD
+tags: former
 location: 
 phone: #"+386 ☎"
 email: #"ime.priimek@domena.končnica"
@@ -17,9 +14,10 @@ publons: #"https://publons.com/researcher/1234/testni-primer/"
 googlescholar: #"https://scholar.google.com/citations?user=aaa"
 researchgate: #"Testni-Primer"
 projects: #"prosculpt"
+currentCompany: unknown
 ---
 
-"Liza"
+Now works at {{ page.currentCompany }}
 
 {% include person-projects.html %}
 {% include publication-list.html %}

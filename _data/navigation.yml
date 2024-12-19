@@ -18,20 +18,23 @@ main:
   - title: "Contact"
     url: /contact/
 
+  - title: "CV"
+    url: /team/Ljubetic_Ajasja/
+
 Team:
   - title: Research Team
     url: /team
     children:
     - title: Group Leader
       url: /team#group-leader
-    - title: Researchers
-      url: /team#researchers
+#    - title: Researchers
+#      url: /team#researchers
     - title: Postdocs
       url: /team#postdocs
     - title: PhD Students
       url: /team#phd-students
-    - title: Staff
-      url: /team#staff
+#    - title: Staff
+#      url: /team#staff
     - title: Students
       url: /team#students
     - title: Past members since 2020

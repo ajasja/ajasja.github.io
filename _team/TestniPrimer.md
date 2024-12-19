@@ -21,6 +21,7 @@ projects: # TestniPrimer won't be visible because it's "former". But use the sam
   - "CC-Trigger"
 short: "Walks all day long"
 foto: "Make sure to credit your photographer! Unless you have self-assembled :robot:"
+currentCompany: Hoja po proteinih, d. d.
 ---
 
 Creator of this website. In free time, a student of *programme* at *your university* 🕓🏃🏻‍♀️

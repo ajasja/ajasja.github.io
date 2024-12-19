@@ -7,6 +7,9 @@ author_profile: true
 
 {% include base_path %}
 
+Full list of publication [can be found here](https://scholar.google.com/citations?user=DaHYEd0AAAAJ&hl=en&oi=ao). 
+
+
 # Featured publications
 <p class="legenda" style="font-size: small; color: gray; margin-top: 1.5rem;">* ... shared first author <br>✉ ... shared corresponding/senior author</p>
 {% assign featured_publications = site.publications | where: "featured", true | sort: "order" %}
@@ -35,7 +38,4 @@ author_profile: true
   
 {% endfor %}
 </ul>
-
-
-Full list of publication [can be found here](https://scholar.google.com/citations?user=DaHYEd0AAAAJ&hl=en&oi=ao). 
 

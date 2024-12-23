@@ -4,7 +4,7 @@ layout: archive
 permalink: /team/
 sidebar:
   nav: "Team"
-author_profile: true
+author_profile: false
 ---
 
 <!-- ![Group photo](/images/team/Group-photo.webp) -->  

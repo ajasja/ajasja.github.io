@@ -4,6 +4,7 @@ title: "Research fields"
 permalink: /research/
 sidebar:
   nav: "Research"
+author_profile: false
 
 ---
 {% include base_path %}

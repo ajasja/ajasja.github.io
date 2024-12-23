@@ -2,6 +2,7 @@
 title: "Software"
 permalink: /software/
 layout: archive
+author_profile: false
 ---
 {% include base_path %}
 

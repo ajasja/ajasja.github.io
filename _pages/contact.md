@@ -2,6 +2,7 @@
 title: "Contact information"
 layout: archive
 permalink: /contact/
+author_profile: false
 ---
 
 Get in touch

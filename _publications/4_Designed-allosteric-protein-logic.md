@@ -9,7 +9,7 @@ paperurl: # Only if different than doi
 doi: 10.1038/s41421-023-00635-y
 type: 'Paper'
 header:
-  teaser: 'logo.webp'
+  teaser: 'Designed-allosteric-protein-logic.webp'
 project: 
 featured: true # Should the publication be shown under "Featured publications" at the top of page
 ---

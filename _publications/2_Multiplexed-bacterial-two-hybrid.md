@@ -9,7 +9,7 @@ paperurl: # Only if different than doi
 doi: 10.1038/s41467-023-38697-x
 type: 'Paper'
 header:
-  teaser: 'logo.webp'
+  teaser: 'Multiplexed-bacterial-two-hybrid.webp'
 project: 
 featured: true # Should the publication be shown under "Featured publications" at the top of page
 ---

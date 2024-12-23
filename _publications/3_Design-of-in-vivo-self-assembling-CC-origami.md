@@ -9,7 +9,7 @@ paperurl: # Only if different than doi
 doi: 10.1038/nbt.3994
 type: 'Paper'
 header:
-  teaser: 'logo.webp'
+  teaser: 'Design-of-in-vivo-self-assembling-CC-origami.webp'
 project: 
 featured: true # Should the publication be shown under "Featured publications" at the top of page
 ---

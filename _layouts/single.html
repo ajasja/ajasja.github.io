@@ -44,12 +44,15 @@ layout: default
           <hr-bold>
           <br>
 
+          <!-- Only if we have an image! Former members might not have it. -->
+          {% if page.header.teaser %}
           <div class='pull-right' style='width: 25%; /* height: 210px; */ padding: 5px; object-fit: contain;'>
             <img src='{{ page.header.teaser | prepend: "/images/team/" | prepend: base_path }}' style='object-fit: scale-down; max-height: 200px; margin-left: auto; margin-right: 1px; border-radius: 0.8rem;' >
             {% if page.foto %}
               <p style="font-size: small; margin: 0.2rem;"><i class="fa fa-solid fa-camera" aria-hidden="true"></i>: {{ page.foto }}</p>
             {% endif %}
           </div>
+          {% endif %}
 
           <p>
           <!--

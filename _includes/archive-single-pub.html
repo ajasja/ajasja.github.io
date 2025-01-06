@@ -76,8 +76,8 @@
     <span style="font-size:0.8em; line-height: 0.5;"><b><i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%B %Y" }}</b></span>
     {% endif %}
 
-    {% if post.paperurl and post.featured != true %}
-    <span style="font-size:0.8em; line-height: 0.5;"><b><cite>(read more <a href="{{ post.paperurl }}" target="_blank">here</a>)</cite></b></span><br>
+    {% if post.readMore %}
+    <span style="font-size:0.8em; line-height: 0.5;"><b><cite>(<a href="{{ base_path }}{{ post.url }}">Read more</a>)</cite></b></span><br>
     {% else %}
     <br>
     {% endif %}

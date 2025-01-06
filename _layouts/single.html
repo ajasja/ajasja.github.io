@@ -36,7 +36,7 @@ layout: default
         {% endif %}
 
         {% if page.authors %}
-          <i>{{ page.authors }}</i>
+          <i>{{ page.authors | replace: "Ljubetič", "<b>Ljubetič</b>" }}</i>
           <br>
         {% endif %}
 

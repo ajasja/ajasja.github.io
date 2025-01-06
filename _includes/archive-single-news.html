@@ -13,8 +13,10 @@
     {% if post.header.teaser %}
     {% if post.collection == "software" %}
       {% assign pull = "pull-left" %}
+      {% capture linkToOpen %}{{ post.paperurl }}{% endcapture %} <!-- Check the readMore==true once we have descriptions -->
     {% else %}
       {% assign pull = "pull-right" %}
+      {% capture linkToOpen %}{{ base_path }}{{ post.url }}{% endcapture %} <!-- Check the readMore==true once we have descriptions -->
     {% endif %}
 
     <div class='{{ pull }}' style='max-width: 30%; height: 150px; padding: 10px; object-fit: contain;'>
@@ -28,7 +30,7 @@
       {% if post.link %}
         <a href="{{ post.link }}">{{ title }}</a> <a href="{{ base_path }}{{ post.url }}" rel="permalink"><i class="fa fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
       {% else %}
-        <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ title }}</a>
+        <a href="{{ linkToOpen }}" rel="permalink" target="_blank" info="We should remove the target=_blank once we have description pages. Make similar to how it's done in Publications.">{{ title }}</a>
       {% endif %}
     </h2>
 
@@ -57,7 +59,7 @@
     {% elsif post.citation %}
       <p>Recommended citation: {{ post.citation }} </p>
     {% elsif post.paperurl %}
-      <p>Download <a href=" {{ post.paperurl }} "><u>here</u></a></p>
+      <p>Access <a href=" {{ post.paperurl }} " target="_blank"><u>here</u></a></p>
     {% endif %}
 
     <br>

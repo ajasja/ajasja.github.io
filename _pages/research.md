@@ -9,6 +9,12 @@ author_profile: false
 ---
 {% include base_path %}
 
+## Molecular machines
+some text and a photo here
+
+## Design of Binders
+Also has some text and an image.
+
 Running projects :running:
 ------------
 <hr>

@@ -44,6 +44,8 @@ Research:
   - title: Research
     url: /research
     children: 
-    - title: First section.
-      url: /research#first-section
+    - title: Molecular machines
+      url: /research#molecular-machines
+    - title: Design of Binders
+      url: /research#design-of-binders
 

@@ -26,26 +26,26 @@ Team:
     url: /team
     children:
     - title: Group Leader
-      url: /team#group-leader
+      url: "#group-leader"
 #    - title: Researchers
 #      url: /team#researchers
     - title: Postdocs
-      url: /team#postdocs
+      url: "#postdocs"
     - title: PhD Students
-      url: /team#phd-students
+      url: "#phd-students"
 #    - title: Staff
 #      url: /team#staff
     - title: Students
-      url: /team#students
+      url: "#students"
     - title: Past members since 2022
-      url: /team#past-members-since-2022
+      url: "#past-members-since-2022"
 
 Research:
   - title: Research
     url: /research
     children: 
     - title: Molecular machines
-      url: /research#molecular-machines
+      url: "#molecular-machines"
     - title: Design of Binders
-      url: /research#design-of-binders
+      url: "#design-of-binders"
 

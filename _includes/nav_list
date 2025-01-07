@@ -23,7 +23,8 @@
         <ul>
           {% for child in nav.children %}
             {% comment %}internal/external URL check{% endcomment %}
-            {% if child.url contains "://" %}
+            {% assign firstChar = child.url | slice: 0 %}
+            {% if child.url contains "://" or firstChar == "#" %}
               {% assign domain = "" %}
             {% else %}
               {% assign domain = base_path %}

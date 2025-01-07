@@ -5,7 +5,7 @@ collection: software
 order: 4 # Sorting order for featured pubs
 paperurl: https://github.com/ajasja/INSRTR
 header:
-  teaser: 'logo.webp'
+  teaser: 'Designed-allosteric-protein-logic.webp'
 ---
 
-Description of .
+Regulation of proteins using coiled-coils 

@@ -5,7 +5,7 @@ collection: software
 order: 3 # Sorting order for featured pubs
 paperurl: https://github.com/NIC-SBI/CC_protein_origami
 header:
-  teaser: 'logo.webp'
+  teaser: 'Design-of-in-vivo-self-assembling-CC-origami.webp'
 ---
 
-Description of .
+Design platform for creating single-chain polyhedral cages made from coiled-coil building modules 

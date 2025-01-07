@@ -1,5 +1,5 @@
 ---
-title: "LUMICKS_image_alignment"
+title: "LUMICKS_<wbr>image_<wbr>alignment"
 #date:  1970-01-01
 collection: software
 order: 5 # Sorting order for featured pubs
@@ -8,4 +8,4 @@ header:
   teaser: 'logo.webp'
 ---
 
-Description of .
+Scripts to align various channels based on reference beads.

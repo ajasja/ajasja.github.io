@@ -5,7 +5,7 @@ collection: software
 order: 1 # Sorting order for featured pubs
 paperurl: https://github.com/ajasja/prosculpt
 header:
-  teaser: 'logo.webp'
+  teaser: 'prosculpt.webp'
 ---
 
 Protein design and sculpting using Rosetta and Deep learning methods (RFDiff and Alphafold2)

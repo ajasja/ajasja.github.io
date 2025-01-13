@@ -9,7 +9,7 @@ paperurl: # Only if different than doi
 doi: 10.1038/s41589-024-01718-x
 type: 'Paper'
 header:
-  teaser: 'https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41589-024-01718-x/MediaObjects/41589_2024_1718_Figa_HTML.png?as=webp'
+  teaser: 'https://www.ki.si/fileadmin/_processed_/1/5/csm_MP3_pic_458956a986.jpg'
 project: 
 featured: true # Should the publication be shown under "Featured publications" at the top of page
 readMore: true
@@ -37,7 +37,7 @@ The research was led by research assistant prof. dr. Ajasja Ljubetič at the Dep
 
 The results were published in the journal Nature Chemical Biology.
 
-Link to article: https://www.nature.com/articles/s41589-024-01718-x
+[Link to article](https://www.nature.com/articles/s41589-024-01718-x)
 
 Contact for further information: ajasja.ljubetic(at)ki.si
 

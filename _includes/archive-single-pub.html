@@ -14,7 +14,7 @@
 
 {% if post.featured == true %}
   {% capture postUrl %}https://doi.org/{{ post.doi }}{% endcapture %}
-  {% assign target = "target='_blank'" %}
+  {% assign target = "target=''" %} <!-- Open it in the same tab for easier navigation -->
 {% else %}
   {% capture postUrl %}{{ base_path }}{{ post.url }}{% endcapture %}
   {% assign target = "" %}

@@ -15,6 +15,7 @@
       {% assign pull = "pull-left" %}
       {% capture linkToOpen %}{{ post.paperurl }}{% endcapture %} <!-- Check the readMore==true once we have descriptions -->
       {% assign target = "target='_blank'" %}
+      {% assign target = "target=''" %} <!-- Open it in the same tab for easier navigation -->
     {% else %}
       {% assign pull = "pull-right" %}
       {% capture linkToOpen %}{{ base_path }}{{ post.url }}{% endcapture %} <!-- Check the readMore==true once we have descriptions -->
@@ -64,7 +65,7 @@
     {% elsif post.citation %}
       <p>Recommended citation: {{ post.citation }} </p>
     {% elsif post.paperurl %}
-      <p>Access <a href=" {{ post.paperurl }} " target="_blank"><u>here</u></a></p>
+      <p>Access <a href=" {{ post.paperurl }} " {{ target }}><u>here</u></a></p>
     {% endif %}
 
     <br>

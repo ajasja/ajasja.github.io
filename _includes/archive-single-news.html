@@ -11,23 +11,28 @@
 <div class="{{ include.type | default: "list" }}__item">
   <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
     {% if post.header.teaser %}
-    {% if post.collection == "software" %}
-      {% assign pull = "pull-left" %}
-      {% capture linkToOpen %}{{ post.paperurl }}{% endcapture %} <!-- Check the readMore==true once we have descriptions -->
-      {% assign target = "target='_blank'" %}
-      {% assign target = "target=''" %} <!-- Open it in the same tab for easier navigation -->
-    {% else %}
-      {% assign pull = "pull-right" %}
-      {% capture linkToOpen %}{{ base_path }}{{ post.url }}{% endcapture %} <!-- Check the readMore==true once we have descriptions -->
-      {% assign target = "" %}
-    {% endif %}
+      {% if post.collection == "software" %}
+        {% assign pull = "pull-left" %}
+        {% capture linkToOpen %}{{ post.paperurl }}{% endcapture %} <!-- Check the readMore==true once we have descriptions -->
+        {% assign target = "target='_blank'" %}
+        {% assign target = "target=''" %} <!-- Open it in the same tab for easier navigation -->
+      {% else %}
+        {% assign pull = "pull-right" %}
+        {% capture linkToOpen %}{{ base_path }}{{ post.url }}{% endcapture %} <!-- Check the readMore==true once we have descriptions -->
+        {% assign target = "" %}
+      {% endif %}
+      {% if post.header.teaser contains 'https://' %}
+        {% capture postHeaderTeaser %}{{ post.header.teaser }}{% endcapture %}
+      {% else %}
+        {% capture postHeaderTeaser %}{{ post.header.teaser | prepend: "/images/" | prepend: base_path }}{% endcapture %}
+      {% endif %}
 
     {% assign maxHeight = "6rem" %}
     {% assign maxHeight = "140px" %}
 
-    <div class='{{ pull }}' style='max-width: 30%; height: fit-content; max-height: calc({{ maxHeight }} + 20px); padding: 10px; object-fit: contain;'>
-      <a href="{{ linkToOpen }}" rel="permalink" {{ target }} style="max-height: {{ maxHeight }}; display: inline-block;">
-        <img src='{{ post.header.teaser | prepend: "/images/" | prepend: base_path }}' style='object-fit: scale-down; max-height: {{ maxHeight }};' >
+    <div class='{{ pull }}' style='width: 30%; height: fit-content; max-height: calc({{ maxHeight }} + 20px); padding: 10px; object-fit: contain;'>
+      <a href="{{ linkToOpen }}" rel="permalink" {{ target }} style="max-height: {{ maxHeight }}; display: inline-block; width: 100%;">
+        <img src='{{ postHeaderTeaser }}' style='object-fit: scale-down; max-height: {{ maxHeight }}; width: 100%;' >
       </a>
     </div>
     {% endif %}

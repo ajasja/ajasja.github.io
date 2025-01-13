@@ -12,13 +12,8 @@
   {% assign title = post.title %}
 {% endif %}
 
-{% if post.featured == true %}
-  {% capture postUrl %}https://doi.org/{{ post.doi }}{% endcapture %}
-  {% assign target = "target=''" %} <!-- Open it in the same tab for easier navigation -->
-{% else %}
-  {% capture postUrl %}{{ base_path }}{{ post.url }}{% endcapture %}
-  {% assign target = "" %}
-{% endif %}
+{% capture postUrl %}https://doi.org/{{ post.doi }}{% endcapture %}
+{% assign target = "target=''" %} <!-- Open it in the same tab for easier navigation -->
 
 <div class="{{ include.type | default: "list" }}__item">
   <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork" style="min-height: 160px; margin-bottom: 1rem;">

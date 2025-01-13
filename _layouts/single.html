@@ -131,6 +131,18 @@ layout: default
             <b> (read more <a href="{{ page.paperurl }}"> here</a>).</b>
           {% endif %}
           </span><br>
+
+          {% if page.header.teaser %}
+            {% if page.header.teaser contains 'https://' %}
+              {% capture postHeaderTeaser %}{{ page.header.teaser }}{% endcapture %}
+            {% else %}
+              {% capture postHeaderTeaser %}{{ page.header.teaser | prepend: "/images/" | prepend: base_path }}{% endcapture %}
+            {% endif %}
+    
+              <p><center><img src='{{ postHeaderTeaser }}' style='max-height: 350px; width: 80%; object-fit: contain;' >
+            <p><justify>
+          {% endif %}
+
         {% endif %}
 
         

@@ -39,9 +39,9 @@
     {% assign maxHeight = "140px" %}
 
     {% if post.featured == true %}
-    <div class='{{ pull }}' style='max-width: 30%; height: fit-content; max-height: calc({{ maxHeight }} + 20px); padding: 10px; object-fit: contain;'>
-      <a href="{{ postUrl }}" rel="permalink" {{ target }} style="max-height: {{ maxHeight }}; display: inline-block;">
-        <img src='{{ postHeaderTeaser }}' style='object-fit: scale-down; max-height: {{ maxHeight }};' >
+    <div class='{{ pull }}' style='width: 30%; height: fit-content; max-height: calc({{ maxHeight }} + 20px); padding: 10px; object-fit: contain;'>
+      <a href="{{ postUrl }}" rel="permalink" {{ target }} style="max-height: {{ maxHeight }}; display: inline-block; width: 100%;">
+        <img src='{{ postHeaderTeaser }}' style='object-fit: scale-down; max-height: {{ maxHeight }}; width: 100%;' >
       </a>
     </div>
     {% endif %}

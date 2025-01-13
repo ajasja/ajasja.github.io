@@ -14,10 +14,12 @@ publons: #"https://publons.com/researcher/1234/testni-primer/"
 googlescholar: #"https://scholar.google.com/citations?user=aaa"
 researchgate: #"Testni-Primer"
 projects: #"prosculpt"
-currentCompany: unknown
+currentCompany: 
 ---
 
+{% if page.currentCompany %}
 Now works at {{ page.currentCompany }}
+{% endif %}
 
 {% include person-projects.html %}
 {% include publication-list.html %}

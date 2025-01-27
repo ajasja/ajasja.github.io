@@ -3,9 +3,9 @@ title: "Enej Zamida"
 title2: 
 collection: team
 header:
-  teaser: ../logo.webp 
+  teaser: Zamida_Enej.webp 
 tags: student
-tagline: MSc student
+tagline: BSc student
 location: 
 phone: #"+386 ☎"
 email: #"ime.priimek@domena.končnica"

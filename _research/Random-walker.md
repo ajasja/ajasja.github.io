@@ -1,6 +1,6 @@
 ---
 title: "Random walker"
-name: "name of this project"
+name: "Random walker"
 collection: research
 layout: archive
 date: 1910-10-10

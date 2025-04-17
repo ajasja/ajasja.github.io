@@ -14,7 +14,7 @@ We design protein-based molecular machines that mimic the function of nanoscale 
 
 ## Design of Binders
 
-We engineer custom proteins that bind tightly and specifically to natural targets, such as viral proteins, receptors, or enzymes.
+We engineer custom proteins that bind tightly and specifically to natural targets, such as viral proteins, receptors, or enzymes. 
 
 Running projects 
 -----------------

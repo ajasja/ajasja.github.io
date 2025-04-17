@@ -4,8 +4,8 @@ title2:
 collection: team
 header:
   teaser: ../logo.webp 
-tags: student
-tagline: Visiting student
+tags: former
+tagline: 
 location: 
 phone: #"+386 ☎"
 email: #"ime.priimek@domena.končnica"
@@ -17,9 +17,8 @@ publons: #"https://publons.com/researcher/1234/testni-primer/"
 googlescholar: #"https://scholar.google.com/citations?user=aaa"
 researchgate: #"Testni-Primer"
 projects: 
-foto: 
+foto:
 ---
-
 <br>
 
 {% include person-projects.html %}

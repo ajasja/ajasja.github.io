@@ -5,18 +5,20 @@ permalink: /research/
 sidebar:
   nav: "Research"
 author_profile: false
-
 ---
 {% include base_path %}
 
 ## Molecular machines
-some text and a photo here
+
+We design protein-based molecular machines that mimic the function of nanoscale motors in nature. Our main focus is building programmable protein fibers and protein "walkers"—tiny machines that move along these tracks. This work lays the foundation for new types of synthetic, controllable systems at the molecular level.
 
 ## Design of Binders
-Also has some text and an image.
 
-Running projects :running:
-------------
+We engineer custom proteins that bind tightly and specifically to natural targets, such as viral proteins, receptors, or enzymes.
+
+Running projects 
+-----------------
+
 <hr>
 <div class="grid">
 <div class="wrapper">

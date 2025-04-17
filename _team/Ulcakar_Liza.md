@@ -18,8 +18,7 @@ googlescholar: #"https://scholar.google.com/citations?user=aaa"
 researchgate: #"Testni-Primer"
 projects: #"prosculpt"
 ---
-
-"Liza"
+"The main focus of Liza's work is characterization of de novo designed molecular walkers"
 
 {% include person-projects.html %}
 {% include publication-list.html %}

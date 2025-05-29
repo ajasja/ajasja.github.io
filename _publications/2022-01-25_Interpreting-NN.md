@@ -1,5 +1,5 @@
 ---
-title: "Interpreting neural networks for biological sequences by learning stochastic masks [IF: 25.9]"
+title: "Interpreting neural networks for biological sequences by learning stochastic masks"
 order: 5
 collection: publications
 date: 2022-01-25
@@ -11,10 +11,9 @@ type: 'Paper'
 header:
   teaser: 'https://www.ki.si/fileadmin/_processed_/c/9/csm_ajasja_0221283028.png'
 project: 
-featured: true
+featured: false2022-01-25
 readMore: true
 ---
-
 Machine learning with deep neural networks has accelerated research and applications in many areas, from translating texts, playing chess, to designing new proteins that can serve as drugs and vaccines. An example of a successful neural network is DeepMind's AlphaFold2. Difficulties arise in interpreting neural networks. The answer to the question "Why and how did the network offer us a certain answer?" is difficult or unknown.
 
 An international group of researchers, including dr. Ajasja Ljubetič from the Department of Synthetic Biology and Immunology of the Institute of Chemistry has developed an innovative method "Scrambler" for the interpretation of neural networks that act on the sequence of amino acids or nucleotides. For example, from an existing neural network model for predicting amino acid sequence-based interactions, the Scrambler method can determine which amino acids are key to the interaction.

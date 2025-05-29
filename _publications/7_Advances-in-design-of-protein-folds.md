@@ -1,6 +1,6 @@
 ---
-title: "Advances in design of protein folds and assemblies. [IF: 7.6]"
-order: 6
+title: "Advances in design of protein folds and assemblies."
+order: 7
 collection: publications
 date: 2017-10-01
 venue: 'Current opinion in chemical biology'
@@ -13,5 +13,4 @@ header:
 project: 
 featured: true
 ---
-
 Advances in design of protein folds and assemblies

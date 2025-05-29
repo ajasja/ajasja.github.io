@@ -8,7 +8,7 @@ tags: phd
 tagline: PhD
 location: 
 phone: #"+386 ☎"
-email: #"ime.priimek@domena.končnica"
+email: #"Alina.Konstantinova@ki.si"
 twitter: #"handle"
 linkedin: #"linkedout"
 github: #"username"
@@ -19,7 +19,7 @@ researchgate: #"Testni-Primer"
 projects: #"prosculpt"
 ---
 
-"Файл ЙПГ"
+Alina is designing radially symmetric oligomeric proteins to use as anchors of designed fibers
 
 {% include person-projects.html %}
 {% include publication-list.html %}

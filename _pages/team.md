@@ -1,5 +1,5 @@
 ---
-title: "Greet our team"
+title: ""
 layout: archive
 permalink: /team/
 sidebar:
@@ -12,15 +12,11 @@ author_profile: false
 {% assign crop_top = 5 %}
 {% assign crop_bottom = 66 %}
 
-
 <div style="width: 100%; max-height: 400px; overflow: hidden; margin-bottom: 2rem;">
   <img src="/images/team/Group-photo.webp"
        alt="Group photo"
        style="width: 100%; height: auto; object-fit: cover; object-position: center top;">
 </div>
-
-
-
 
 Group Leader
 ------------

@@ -6,14 +6,14 @@
 
 <div itemscope itemtype="http://schema.org/Person">
 
-  <div class="author__avatar wrapperFix">
+  <div class="author__avatar" style="overflow: hidden; margin-bottom: 1em;">
     {% if author.avatar contains "://" %}
-    	<img src="{{ author.avatar }}" alt="{{ author.name }}">
+      <img src="{{ author.avatar }}" alt="{{ author.name }}" style="display: block; float: none; margin: 0 auto;">
     {% else %}
-    	<img src="{{ author.avatar | prepend: "/images/" | prepend: base_path }}" class="author__avatar" alt="{{ author.name }}">
+      <img src="{{ author.avatar | prepend: "/images/" | prepend: base_path }}" alt="{{ author.name }}" style="display: block; float: none; margin: 0 auto;">
     {% endif %}
   </div>
-
+  <div style="clear: both;"></div>
 
   <div class="author__content">
     <h3 class="author__name">{{ author.name }}</h3>

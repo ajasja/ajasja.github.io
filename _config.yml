@@ -21,11 +21,11 @@ repository               : "ajasja/ajasja.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "logo.webp"
+  avatar           : "team/Ljubetic_Ajasja.webp"
   name             : "Ajasja Ljubetič"
   pronouns         : # example: "she/her"  
   bio              : "Research Assistant Professor at the National Institute of Chemistry, Slovenia  <br> Baker Lab alumni, MSCA fellow alumni."
-  location         : "Earth"
+  location         : "Ljubljana, Slovenia"
   employer         : 
   uri              : # URL
   email            :  

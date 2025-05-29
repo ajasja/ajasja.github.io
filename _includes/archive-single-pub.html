@@ -16,7 +16,9 @@
 {% assign target = "target=''" %} <!-- Open it in the same tab for easier navigation -->
 
 <div class="{{ include.type | default: "list" }}__item">
-  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork" style="min-height: 160px; margin-bottom: 1rem;">
+    <article class="archive__item"
+           itemscope itemtype="http://schema.org/CreativeWork"
+           {% if include.featured %}style="min-height: 150px; margin-bottom: 1rem;"{% else %}style="margin-bottom: 1rem;"{% endif %}>
     {% if post.header.teaser %}
     {% if post.collection == "software" or "publications" %}
       {% assign pull = "pull-left" %}

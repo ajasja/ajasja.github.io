@@ -8,7 +8,7 @@ tags: phd
 tagline: PhD
 location: 
 phone: #"+386 ☎"
-email: #"ime.priimek@domena.končnica"
+email: "liza.ulcakar@ki.si"
 twitter: #"handle"
 linkedin: #"linkedout"
 github: #"username"
@@ -18,7 +18,7 @@ googlescholar: #"https://scholar.google.com/citations?user=aaa"
 researchgate: #"Testni-Primer"
 projects: #"prosculpt"
 ---
-"The main focus of Liza's work is characterization of de novo designed molecular walkers"
+The main focus of Liza's work is characterization of de novo designed molecular walkers
 
 {% include person-projects.html %}
 {% include publication-list.html %}

@@ -16,7 +16,7 @@ orcid: #"0000-0000-0000-000X"
 publons: #"https://publons.com/researcher/1234/testni-primer/"
 googlescholar: #"https://scholar.google.com/citations?user=aaa"
 researchgate: #"Testni-Primer"
-projects: #"prosculpt"
+projects: "Random walker"
 ---
 The main focus of Liza's work is characterization of de novo designed molecular walkers
 

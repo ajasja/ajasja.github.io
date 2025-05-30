@@ -19,7 +19,7 @@ researchgate: #"Testni-Primer"
 projects: 
 foto: 
 ---
-
+Enej works on the kinetics of protein displacement
 <br>
 
 {% include person-projects.html %}

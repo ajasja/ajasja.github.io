@@ -16,7 +16,7 @@ orcid: "0000-0002-6253-453X"
 publons: #""
 googlescholar: "https://scholar.google.com/citations?user=hJgGo1EAAAAJ&hl=en"
 researchgate: "Federico-Olivieri-6?ev=hdr_xprf"
-projects: #"prosculpt"
+projects: "Random walker"
 ---
 Federico works in the _de novo_ design of protein fibers and molecular motors
 

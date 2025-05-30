@@ -1,6 +1,6 @@
 ---
 title: "Ajasja Ljubetič"
-title2: "Ajasja Ljubetic"
+title2: "A Ljubetič"
 collection: team
 header:
   teaser: Ljubetic_Ajasja.webp 
@@ -16,7 +16,7 @@ orcid: "0000-0002-2171-1579"
 publons: #"https://publons.com/researcher/1234/testni-primer/"
 googlescholar: "https://scholar.google.si/citations?user=DaHYEd0AAAAJ&hl=en"
 researchgate: #"Testni-Primer"
-projects: #"Random walker, CC-Trigger"
+projects: "Random walker, CC-Trigger"
 foto: "Damjan Makuc"
 ---
 

@@ -16,7 +16,7 @@ orcid: "0000-0002-7909-3216"
 publons: #"https://publons.com/researcher/1234/testni-primer/"
 googlescholar: "https://scholar.google.com/citations?hl=en&user=9rY8u5gAAAAJ"
 researchgate: #"Testni-Primer"
-projects: #"prosculpt"
+projects: "CC-Trigger"
 ---
 Eva's work focuses on implementation and characterisation of Toehold Mediated Strand Displacement in proteins
 

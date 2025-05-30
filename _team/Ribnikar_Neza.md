@@ -19,7 +19,7 @@ researchgate: #"Testni-Primer"
 projects: 
 foto: 
 ---
-
+Neža works on the design of symmetric protein anchors
 <br>
 
 {% include person-projects.html %}

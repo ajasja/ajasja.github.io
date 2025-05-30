@@ -18,13 +18,9 @@
       {% if post.collection == 'team' %}
         {% assign image_src = "/images/team/" %}
         {% assign radij = "40% 75% / 50%" %}
-      {% else %}
-        {% assign image_src = "/images/" %}
-        {% assign radij = "0" %}
-      {% endif %}
-      <div class="archive__item-teaser" style="text-align: center; max-height: 250px;">
-        <a href="{{ base_path }}{{ post.url }}" rel="permalink" style="vertical-align: middle; width: 100%; display: inline-block;">
-          <img style='object-fit: contain; /* clip-path: circle(30% at 50% 50%); */ border-radius: {{ radij }};  vertical-align: middle; max-height: 250px; max-width: 100%; height: unset; width: unset;' src=
+        <div style="height: 300px !important; width: 100%; overflow: hidden; display: flex; align-items: center; justify-content: center; background-color: #f8f9fa; border-radius: {{ radij }};">
+        <a href="{{ base_path }}{{ post.url }}" rel="permalink" style="display: block; height: 100%; width: 100%;">
+          <img style='object-fit: cover; height: 100%; width: 100%; border-radius: {{ radij }};' src=
             {% if teaser contains "://" %}
               "{{ teaser }}"
             {% else %}
@@ -33,19 +29,30 @@
             alt="">
         </a>
       </div>
+      {% else %}
+        {% assign image_src = "/images/" %}
+        {% assign radij = "0" %}
+
+<div class="archive__item-teaser" style="position: relative; width: 100%; padding-top: 66.66%; overflow: hidden; border-radius: {{ radij }};">
+  <a href="{{ base_path }}{{ post.url }}" rel="permalink" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;">
+    <img style="object-fit: contain; width: 100%; height: 100%; border-radius: {{ radij }};" src="{% if teaser contains '://' %}{{ teaser }}{% else %}{{ teaser | prepend: image_src | prepend: base_path }}{% endif %}" alt="">
+  </a>
+</div>
+      {% endif %}
+
     {% endif %}
 
     {% if post.feature %}
-     <div class='pull-right' style='width: 50%; height: 200px; padding: 15px; object-fit: contain;'>
+     <div class='pull-right' style='width: 100%; height: 200px; padding: 15px; object-fit: contain;'>
       <img style='object-fit: cover;' src="{{ post.feature | prepend: "/images/" | prepend: base_path }}">
      </div>
     {% endif %}
 
-    <h2 class="archive__item-title" itemprop="headline">
+    <h2 itemprop="headline" style="text-align: center;">
       {% if post.link %}
-        <center><a href="{{ post.link }}">{{ title }}</a> </center><a href="{{ base_path }}{{ post.url }}" rel="permalink"><i class="fa fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
+        <a href="{{ post.link }}">{{ title }}</a> <a href="{{ base_path }}{{ post.url }}" rel="permalink"><i class="fa fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
       {% else %}
-        <center><a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ title }}</a></center>
+        <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ title }}</a>
       {% endif %}
     </h2>
 
@@ -53,22 +60,21 @@
       <p class="page__meta"><i class="fa fa-clock-o" aria-hidden="true"></i> {% include read-time.html %}</p>
     {% endif %}
 
-
     {% if post.tagline  %}
-    <center><i>{{ post.tagline }}</i></center>
+    <div style="text-align: center;"><i>{{ post.tagline }}</i></div>
     {% endif %}
 
 <!--     {% if post.excerpt %}
     <center style="font-size: smaller"><p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify }}</p></center>
     {% endif %} -->
 
-
+  {% if post.collection == 'team' and page.url == '/team/'  %}
     {% if post.short %}
-    <center style="font-size: small">{{ post.short }}</center>
+    <div style="text-align: center; font-size: small;">{{ post.short }}</div>
     {% elsif post.excerpt %}
-    <center style="font-size: small">{{ post.excerpt | markdownify | remove: "<p>" | remove: "</p>" }}</center>
+    <div style="text-align: center; font-size: small;">{{ post.excerpt | markdownify | remove: "<p>" | remove: "</p>" }}</div>
     {% endif %}
-
+  {% endif %}
 
   </article>
 </div>

@@ -62,10 +62,12 @@
 .archive__item-teaser {
   border-radius: $border-radius;
   overflow: hidden;
+
   img {
-    height: 130px;
     width: 100%;
-    resize:both;
+    height: auto;
+    object-fit: cover;
+    display: block;
   }
 }
 
@@ -136,7 +138,7 @@
     @include gallery(2.5 of 10);
 
     .archive__item-teaser {
-      max-height: 120px;
+      max-height: 300px;
     }
 
     .archive__item-excerpt {

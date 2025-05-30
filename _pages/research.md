@@ -6,6 +6,7 @@ sidebar:
   nav: "Research"
 author_profile: false
 ---
+
 {% include base_path %}
 
 ## Molecular machines
@@ -20,6 +21,7 @@ Running projects
 -----------------
 
 <hr>
+<ul>
 <div class="grid">
 <div class="wrapper">
   {% for post in site.research %}
@@ -27,3 +29,4 @@ Running projects
   {% endfor %}
 </div>
 </div>
+</ul>

@@ -9,7 +9,7 @@ redirect_from:
 ---
 
 
-![cover](/images/cover.webp)
+![cover](/images/cover.jpg)
 
 
 Welcome to the world of _de novo_ designed molecular machines!

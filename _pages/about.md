@@ -14,7 +14,7 @@ redirect_from:
 
 # Welcome to the world of *de novo* designed proteins and molecular machines!
 
-We design and study dynamic protein assemblies from scratch, with a strong focus on coiled-coil structures.
+The vision for my group is to design and study dynamic protein assemblies from scratch, with a strong focus on coiled-coil structures.
 
 During my postdoc in the [Baker Lab](https://www.bakerlab.org/) I have designed and developed a *de novo* random walker, that uses coiled coils as feet. We are exploring future applications of this random walker scaffold to build useful protein robots. See the [CC-WALK](/research/Random-walker) project for more info.
 

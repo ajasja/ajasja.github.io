@@ -8,15 +8,20 @@ redirect_from:
   - //index.htm
 ---
 
+<p align="center" >
+    <img  src="/images/cover.jpg"> 
+</p>
 
-![cover](/images/cover.jpg)
+Welcome to the world of __de novo__ designed molecular machines!
 
-
-Welcome to the world of _de novo_ designed molecular machines!
 ========
 
-We focus on the design and study of _de novo_ designed dynamic protein assemblies, with a particular emphasis on coiled coil structures. Coiled coils are formed by two or more alpha helices that are wound around each other in a specific way, and they play important roles in many biological processes.  
+We design and study dynamic protein assemblies from scratch, with a strong focus on coiled-coil structures.
 
-During my postdoc in the [Baker Lab](https://www.bakerlab.org/) we have designed a _de novo_ random walker, that uses coiled coils as feet. We are now making the feet rigid in order to enable biased motion and active walking. We are also exploring future applications of this random walker scaffold in order to build useful protein robots.   
+During my postdoc in the [Baker Lab](https://www.bakerlab.org/) I have designed and developed a __de novo__ random walker, that uses coiled coils as feet. We are exploring future applications of this random walker scaffold to build useful protein robots. See the [CC-WALK](/research/Random-walker) project for more info.
 
-We use the Rosetta software to rigidly fuse coiled coils to _de novo_ designed proteins. We also employ state of the art deep learning methods, such as Alphafold2, RFDiffusion and Protein MPNN.  This allows us to get the best of both worlds: the binding versatility and orthogonality of coiled coils and the stability and shape variability of designed proteins. By exploring the potential of _de novo_ designed proteins, we hope to make important contributions to the field of biotechnology. 
+My lab combines the power of the Rosetta software suite with cutting-edge deep learning tools—including AlphaFold2, RFdiffusion, and ProteinMPNN—to engineer novel proteins with high precision. This hybrid approach lets us harness the binding specificity and modularity of coiled coils, alongside the structural diversity and robustness of *de novo* protein scaffolds. 
+
+To make these advanced design strategies accessible, we've developed and released [Prosculpt](https://github.com/ajasja/prosculpt)—an open-source library for next-generation protein design.
+
+For a full list of our research topics, please visit the [Research page](/research/).

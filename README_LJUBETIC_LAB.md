@@ -25,7 +25,7 @@ To edit those, do the following:
 4. Adapt the content below `--` using markdown styling.
 5. Do not modify the content within curly brackets `{ }` - this is part of the code that generates pages.
 6. Upload the files with your edits into the relevant folder on Nextcloud.
-7. For now, you unfortunately cannot see the end result directly. Please let me (Iztok:) know about your edits and I will pull them to github to show online. 
+7. For now, you unfortunately cannot see the end result directly. 
 
 I hope this helps, otherwise please ask.
 

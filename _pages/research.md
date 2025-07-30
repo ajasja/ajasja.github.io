@@ -21,8 +21,6 @@ We're exploring how to adapt the powerful concept of DNA strand displacement to 
 ## Design of mini binders
 We engineer custom proteins that bind tightly and specifically to natural targets, such as viral proteins, receptors, or enzymes. We use [Prosculpt](https://github.com/ajasja/prosculpt) (RFDiffusion + proteinMPNN) and [Bindcraft](https://github.com/martinpacesa/BindCraft).
 
------------------
-
 <hr>
 <ul>
 <div class="grid">

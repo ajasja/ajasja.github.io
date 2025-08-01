@@ -4,7 +4,7 @@ order: 4 # Sorting order for featured pubs
 collection: publications
 date: 2025-04-01
 venue: 'Current Opinion in Biotechnology'
-authors: 'Jaka Snoj, Weijun Zhou, Ajasja Ljubetič, Roman Jerala'
+authors: 'Jaka Snoj*, Weijun Zhou*, Ajasja Ljubetič✉, Roman Jerala✉'
 paperurl: # Only if different than doi
 doi: 10.1016/j.copbio.2024.103256
 type: 'Paper'

@@ -1,7 +1,7 @@
 ---
 title: "Beyond Dimerization: Harnessing Tetrameric Coiled-Coils for Nanostructure Assembly"
 collection: publications
-date: 2024-12-12
+date: 2025-03-17
 venue: "Angewandte Chemie International Edition"
 authors: "S Vidmar, T Šmidlehner, J Aupič, Ž Strmšek, A Ljubetič, F Xiao, G Hu, C Liu, F Beck, PS Erdmann, R Jerala"
 paperurl:

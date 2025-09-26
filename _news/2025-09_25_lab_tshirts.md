@@ -6,4 +6,4 @@ header:
   teaser: 'news/tshirts.png'
 ---
 
-We got some really cool lab T-shirts made showcasing our fiber and walker designs.
+Lab milestone reached -- we now have lab T-shirts! :)

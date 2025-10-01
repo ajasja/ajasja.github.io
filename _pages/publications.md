@@ -43,7 +43,7 @@ Full list of publications [can be found here](https://scholar.google.com/citatio
 # All publications
 <ul>
 {% for post in site.publications reversed %}
-  {% if post.featured == true %} {% continue %} {% endif %}
+  {% if post.featured == true or post.preprint == true %} {% continue %} {% endif %}
   {% assign currentdate = post.date | date: "%Y" %}
     {% if currentdate != date %}
        <h2 id="y{{post.date | date: "%Y"}}"><span style="color:gray">{{ currentdate }}</span></h2>      

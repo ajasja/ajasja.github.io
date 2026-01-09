@@ -1,9 +1,9 @@
 ---
-title: "Enej Zamida"
+title: "Kiyan Abel"
 title2: 
 collection: team
 header:
-  teaser: Zamida_Enej.webp 
+  teaser: 'kiyan.jpg'
 tags: former
 tagline: BSc student
 location: 
@@ -19,7 +19,7 @@ researchgate: #"Testni-Primer"
 projects: 
 foto: 
 ---
-Enej works on the kinetics of protein displacement
+Kiyan worked on rigid walkers with us as part of the [Rosetta Commons REU](https://rosettacommons.org/2025/04/11/introducing-rosetta-commons-research-experience-for-undergraduates-reu-2025/) 
 <br>
 
 {% include person-projects.html %}

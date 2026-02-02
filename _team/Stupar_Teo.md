@@ -3,7 +3,7 @@ title: "Teo Stupar"
 title2: 
 collection: team
 header:
-  teaser: #Teo_Stupar.webp 
+  teaser: ../logo.webp 
 tags: student
 tagline: MSc student
 location: 

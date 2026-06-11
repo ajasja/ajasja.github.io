@@ -1,5 +1,5 @@
 ---
-title: "KHappy hour with visiting Rosetta Commons members"
+title: "Happy hour with visiting Rosetta Commons members"
 date: 2026-05-15
 collection: news
 header:

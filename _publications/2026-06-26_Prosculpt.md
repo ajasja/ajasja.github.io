@@ -1,6 +1,6 @@
 ---
 title: "Prosculpt: Lowering the Barrier to Computational Protein Design"
-order: 1 # Sorting order for featured pubs
+order: 2 # Sorting order for featured pubs
 collection: publications
 date: 2026-06-26
 venue: 'BioArxiv'

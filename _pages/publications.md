@@ -26,7 +26,7 @@ Full list of publications [can be found here](https://scholar.google.com/citatio
 
 {% assign preprint_publications = site.publications | where: "preprint", true | sort: "order" %}
 <ul >
-{% for post in preprint_publications %}
+{% for post in preprint_publications reversed %}
 
   {% assign currentdate = post.date | date: "%Y" %}
     {% if currentdate != date %}

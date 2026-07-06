@@ -4,7 +4,7 @@ order: 2 # Sorting order for featured pubs
 collection: publications
 date: 2026-06-26
 venue: 'BioArxiv'
-authors: Federico A Olivieri, Alina Konstantinova, Neža Ribnikar, Nej Bizjak, Žan Žnidar, Kiyan Abel, Eva Rajh, Ajasja Ljubetič✉'
+authors: Federico A Olivieri*, Alina Konstantinova*, Neža Ribnikar, Nej Bizjak, Žan Žnidar, Kiyan Abel, Eva Rajh, Ajasja Ljubetič✉
 paperurl: # Only if different than doi
 doi: 10.64898/2026.06.25.732351
 type: 'Paper'

@@ -4,7 +4,7 @@ title2:
 collection: team
 header:
   teaser: Zamida_Enej.webp 
-tags: student
+tags: former
 tagline: BSc student
 location: 
 phone: #"+386 ☎"

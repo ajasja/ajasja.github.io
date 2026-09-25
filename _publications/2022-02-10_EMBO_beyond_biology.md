@@ -3,7 +3,7 @@ title: "EMBO Beyond Biology: Connecting peptide, protein, and DNA design with sy
 collection: publications
 date: 2022-02-10
 venue: 'Chem'
-authors: 'Dhwanit Dave, Tlalit Massarano, Itai Katzir, Žiga Strmšek, Ajasja Ljubetič, Deborah Sementa'
+authors: 'Dhwanit Dave, Tlalit Massarano, Itai Katzir, Žiga Strmšek, Ajasja Ljubetič✉, Deborah Sementa✉'
 paperurl: https://www.cell.com/chem/fulltext/S2451-9294(21)00652-5 # Only if different than doi
 doi: 10.1016/j.chempr.2021.12.021
 type: 'Paper'

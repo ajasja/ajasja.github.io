@@ -16,7 +16,7 @@ orcid: "0000-0002-2171-1579"
 publons: #"https://publons.com/researcher/1234/testni-primer/"
 googlescholar: "https://scholar.google.si/citations?user=DaHYEd0AAAAJ&hl=en"
 researchgate: #"Testni-Primer"
-projects: "Random walker, CC-Trigger"
+projects: "Random walker, CC-Trigger, PROPEL"
 foto: "Damjan Makuc"
 ---
 

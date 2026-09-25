@@ -37,3 +37,16 @@
 @import "vendor/font-awesome/font-awesome";
 @import "vendor/magnific-popup/magnific-popup";
 @import "print";
+
+@media only screen and (max-width: 768px) {
+  .sidebar {
+    display: none !important;
+  }
+
+  .page,
+  .page__content {
+    margin-left: 0 !important;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}

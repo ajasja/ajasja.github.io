@@ -16,15 +16,16 @@
 <ul>
   {% for post in site.publications reversed %}
     {% if post.authors contains page.title or post.authors contains page.title2 %}
-  
-      {% assign currentdate = post.date | date: "%Y" %}
-      {% if currentdate != date %}
-        <h2 id="y{{post.date | date: "%Y"}}"><span style="color:gray">{{ currentdate }}</span></h2>
-        {% assign date = currentdate %}
+      {% if post.featured != true and post.featured != True %}
+        {% assign currentdate = post.date | date: "%Y" %}
+        {% if currentdate != date %}
+          <h2 id="y{{post.date | date: "%Y"}}"><span style="color:gray">{{ currentdate }}</span></h2>
+          {% assign date = currentdate %}
+        {% endif %}
+        <ul>
+          {% include archive-single-pub.html %}
+        </ul>  
       {% endif %}
-      <ul>
-        {% include archive-single-pub.html %}
-      </ul>  
     {% endif %}
 
   {% endfor %}

@@ -16,7 +16,7 @@ orcid: #"0000-0000-0000-000X"
 publons: #"https://publons.com/researcher/1234/testni-primer/"
 googlescholar: #"https://scholar.google.com/citations?user=aaa"
 researchgate: #"Testni-Primer"
-projects: "Random walker"
+projects: "Random walker, PROPEL"
 ---
 
 Alina is designing radially symmetric oligomeric proteins to use as anchors of designed fibers

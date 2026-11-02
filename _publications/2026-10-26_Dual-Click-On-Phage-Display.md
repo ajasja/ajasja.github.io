@@ -3,7 +3,7 @@ title: "Dual “Click-On” Phage Display for Nanoscaffolds with Discretely Tuna
 collection: publications
 date: 2026-10-26
 venue: 'ACS Applied Nano Materials'
-authors: 'Klemen Gnidovec, Liza Ulčakar, Krištof Bozovičar, Rok Romih, Ajasja Ljubetič, Tomaž Bratkovič✉'
+authors: 'K Gnidovec, L Ulčakar, K Bozovičar, R Romih, A Ljubetič, T Bratkovič✉'
 paperurl: # Only if different than doi
 doi: 10.1021/acsanm.6c02379
 type: 'Paper'

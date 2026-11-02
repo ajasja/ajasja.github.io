@@ -4,7 +4,7 @@ order: 1 # Sorting order for featured pubs
 collection: publications
 date: 2025-10-01
 venue: 'BioArxiv'
-authors: 'Liza Ulčakar, Hao Shen, Eva Rajh, Tadej Satler, Federico Alberto Olivieri, Joseph Watson, Yang Hsia, Justin Decarreau, Eric Michael Lynch, Justin Kollman, David Baker, Ajasja Ljubetič✉'
+authors: 'L Ulčakar, H Shen, E Rajh, T Satler, FA Olivieri, J Watson, Y Hsia, J Decarreau, EM Lynch, J Kollman, D Baker, A Ljubetič✉'
 paperurl: # Only if different than doi
 doi: 10.1101/2025.09.29.677966
 type: 'Paper'

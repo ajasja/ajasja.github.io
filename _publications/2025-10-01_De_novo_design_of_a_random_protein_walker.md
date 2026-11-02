@@ -2,7 +2,7 @@
 title: "De-novo design of a random protein walker"
 order: 1 # Sorting order for featured pubs
 collection: publications
-date: 2025-10-01
+date: 2026-01-09
 venue: 'BioArxiv'
 authors: 'L Ulčakar, H Shen, E Rajh, T Satler, FA Olivieri, J Watson, Y Hsia, J Decarreau, EM Lynch, J Kollman, D Baker, A Ljubetič✉'
 paperurl: # Only if different than doi

@@ -4,8 +4,8 @@ title2: "Zan Znidar"
 collection: team
 header:
   teaser: Znidar_Zan.webp 
-tags: student
-tagline: MSc student
+tags: phd
+tagline: PhD
 location: "pri \"Kekcu\""
 phone: #"+386 ☎"
 email: #"ime.priimek@domena.končnica"

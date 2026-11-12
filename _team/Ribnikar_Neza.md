@@ -4,7 +4,7 @@ title2: "Neza Ribnikar"
 collection: team
 header:
   teaser: ../logo.webp 
-tags: student
+tags: former
 tagline: MSc student
 location: 
 phone: #"+386 ☎"

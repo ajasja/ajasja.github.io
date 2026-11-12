@@ -4,7 +4,7 @@ title2: "Mina Kovacevic"
 collection: team
 header:
   teaser: Kovacevic_Mina.png
-tags: student
+tags: former
 tagline: Intern student
 location: 
 phone: #"+386 ☎"
